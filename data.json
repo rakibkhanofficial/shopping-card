@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "speed Bottle 250ml",
+        "price": 30,
+        "image": "/speed.gif",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "Clemon Can 250ml",
+        "price": 25,
+        "image": "/clemon.png",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "Mojo 250ml",
+        "price": 30,
+        "image": "/mojo.webp",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Frutika Grape Juice 250ml",
+        "price": 30,
+        "image": "/frutika.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 5,
+        "name": "Naga Mojo 250ml",
+        "price": 50,
+        "image": "/naga-mojo.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 6,
+        "name": "speed can 250ml",
+        "price": 30,
+        "image": "/speed-can.webp",
+        "quantity": 1
+    },
+    {
+        "id": 7,
+        "name": "Mojo Drinks 1L",
+        "price": 50,
+        "image": "/mojo.jpg",
+        "quantity": 1
+    },
+    {
+        "id": 8,
+        "name": "Coke 250ml",
+        "price": 100,
+        "image": "/coke-cold.gif",
+        "quantity": 1
+    }
+]
