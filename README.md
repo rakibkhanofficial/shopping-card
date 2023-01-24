@@ -1,6 +1,6 @@
 ![](https://github.com/rakibkhanofficial/shopping-card/blob/master/nextjs.gif)
-![](https://github.com/rakibkhanofficial/shopping-card/blob/master/nextjspracice1.JPG)
-![](https://github.com/rakibkhanofficial/shopping-card/blob/master/nextjspractice2.JPG)
+![](https://github.com/rakibkhanofficial/shopping-card/blob/master/frontpage.jpg)
+![](https://github.com/rakibkhanofficial/shopping-card/blob/master/frontpage2.jpg)
 ![](https://github.com/rakibkhanofficial/shopping-card/blob/master/checkout.JPG)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
