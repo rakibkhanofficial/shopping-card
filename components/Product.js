@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRecoilState } from 'recoil';
 import { cartState } from "../atoms/cartState"
-import toast from 'react-hot-toast';
+import toast from 'react-hot-toast'
 
 const Product = ({ product }) => {
 
@@ -24,7 +24,7 @@ const Product = ({ product }) => {
     }
 
     return (
-        <div className='bg-[#fff] pt-6 pb-4 shadow-2xl'>
+        <div className='rounded-lg bg-[#fff] pt-5 pb-3 shadow-2xl'>
 
             <img className='mx-auto w-[350px] h-[200px] object-contain' src={product.image} alt="" />
 
@@ -35,7 +35,7 @@ const Product = ({ product }) => {
                 </div>
 
                 <button
-                    className='bg-red-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-green-600'
+                    className='rounded-lg bg-red-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-green-600'
                     onClick={addItemsToCart}>Add To Cart</button>
 
             </div>

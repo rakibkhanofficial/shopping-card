@@ -18,7 +18,7 @@ export default function Home() {
       <section className='container mx-auto'>
         <h1 className='text-6xl mt-4 text-blue-700 text-center'>Welcome To AFBL!</h1>
           <h2 className='text-4xl mt-4 text-red-700 text-center'>Our Products</h2>
-        <div className='mt-4 grid grid-cols-1 md:grid-cols-3 gap-4'>
+        <div className='mt-4 grid grid-cols-1 md:grid-cols-4 gap-4'>
 
           {data.map(product => <Product product={product} />)}
          

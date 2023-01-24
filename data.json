@@ -15,14 +15,14 @@
     },
     {
         "id": 3,
-        "name": "Mojo 250ml",
+        "name": "Mojo Drinks 250ml",
         "price": 30,
-        "image": "/mojo.webp",
+        "image": "/mojo.png",
         "quantity": 1
     },
     {
         "id": 4,
-        "name": "Frutika Grape Juice 250ml",
+        "name": "Grape Juice 250ml",
         "price": 30,
         "image": "/frutika.jpg",
         "quantity": 1
@@ -50,9 +50,16 @@
     },
     {
         "id": 8,
-        "name": "Coke 250ml",
-        "price": 100,
+        "name": "Coca cola 250ml",
+        "price": 50,
         "image": "/coke-cold.gif",
+        "quantity": 1
+    },
+    {
+        "id": 9,
+        "name": "Spit Orange 250ml",
+        "price": 50,
+        "image": "/spitorange.png",
         "quantity": 1
     }
 ]
