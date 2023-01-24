@@ -7,7 +7,7 @@ const CartList = ({ data }) => {
   return (
     <div>
 
-      <div className='bg-[#fff] max-w-[800px] mx-auto mt-4 py-2 px-6 flex gap-6 items-center justify-between'>
+      <div className='rounded-lg bg-[#fff] max-w-[800px] mx-auto mt-4 py-2 px-6 flex gap-6 items-center justify-between'>
         <img className='h-[100px]' src={image} alt="" />
 
         <div>

@@ -10,7 +10,7 @@ const Navbar = () => {
     const [cartItem] = useRecoilState(cartState)
 
     return (
-        <section className='shadow-xl bg-white sticky top-0'>
+        <section className='rounded-bl-2xl rounded-br-2xl shadow-xl bg-white sticky top-0'>
             <div className='container mx-auto py-2 text-[24px] flex justify-between items-center'>
                 <div className='cursor-pointer'>
                     <Link href="/">AFBL</Link>

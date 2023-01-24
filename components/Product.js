@@ -35,7 +35,7 @@ const Product = ({ product }) => {
                 </div>
 
                 <button
-                    className='rounded-lg bg-red-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-green-600'
+                    className='rounded-lg bg-gradient-to-r from-green-400 to-blue-500 text-white py-4 px-12 mt-4 block mx-auto hover: from-pink-500 gradient-to-r from-green-400 to-blue-500 to-yellow-500from-pink-500 hover:to-yellow-500'
                     onClick={addItemsToCart}>Add To Cart</button>
 
             </div>

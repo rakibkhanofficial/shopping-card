@@ -37,9 +37,9 @@ const Cart = () => {
                 {cartItem.length > 0 && (<div className='max-w-[800px] mx-auto mt-4'>
                     <h2 className='text-right text-3xl font-bold'>Total: ৳{totalPrice()}</h2>
                     <button
-                        className='text-right bg-red-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-red-800' onClick={createCheckoutSession}>Delete Item</button>
+                        className='rounded-lg text-right bg-gradient-to-r from-red-400 to-red-400 text-white py-4 px-12 mt-4 block mx-auto hover:bg-from-red-800 to-red-800 gradient-to-r from-red-500 to-red-500 to-500from-red-500 hover:to-orange-400' onClick={createCheckoutSession}>Delete Item</button>
                     <button
-                        className='text-right bg-green-700 text-white py-4 px-12 mt-4 block mx-auto hover:bg-green-800' onClick={createCheckoutSession}>Checkout</button>
+                        className='rounded-lg text-right bg-gradient-to-r from-green-600 to-green-600 text-white py-4 px-12 mt-4 block mx-auto hover:bg-from-green-800 to-green-800 gradient-to-r from-green-800 to-green-800 to-500 from-red-500 hover:to-yellow-400' onClick={createCheckoutSession}>Checkout</button>
                 </div>)}
 
 

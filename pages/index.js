@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Product from '../components/Product'
 import data from "../data.json"
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
   return (
@@ -16,7 +17,28 @@ export default function Home() {
 
 
       <section className='container mx-auto'>
-        <h1 className='text-6xl mt-4 text-blue-700 text-center'>Welcome To AFBL!</h1>
+          <div>
+              <h1 className='font-mono text-6xl mt-4 text-blue-700 text-center'>
+          <Typewriter
+              options={{
+                  autoStart: true,
+                  loop: true,
+              }}
+              onInit={(typewriter) => {
+                  typewriter.typeString('Welcome To AFBL!')
+                      .callFunction(() => {
+                          console.log('String typed out!');
+                      })
+                      .pauseFor(2500)
+                      .deleteAll()
+                      .callFunction(() => {
+                          console.log('All strings were deleted');
+                      })
+                      .start();
+              }}
+          />
+              </h1>
+          </div>
           <h2 className='text-4xl mt-4 text-red-700 text-center'>Our Products</h2>
         <div className='mt-4 grid grid-cols-1 md:grid-cols-4 gap-4'>
 
