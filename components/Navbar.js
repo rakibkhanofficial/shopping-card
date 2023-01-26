@@ -3,10 +3,14 @@ import React from 'react'
 import {FiHome, FiShoppingCart, FiUser} from "react-icons/fi"
 import { useRecoilState } from 'recoil'
 import { cartState } from '../atoms/cartState'
+import { FaBeer } from "react-icons/fa";
 
 
 const Navbar = () => {
-
+ const  handleChange = (event) => {
+     console.log("Clicked");
+     console.log(event.target.value)
+ }
     const [cartItem] = useRecoilState(cartState)
 
     return (
@@ -40,7 +44,36 @@ const Navbar = () => {
                         </div>
                     </Link>
                 </div>
+            <div className="group inline-block">
+                <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"
+                        className=" text-white bg-green-500 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-green-500 dark:hover:bg-green-800 dark:focus:ring-green-800"
+                        type="button" >
+                    <img className="w-6 h-6 mr-2 rounded-full" src="/icon/globe.svg" alt="Language"/>
+                    Languages
+                </button>
+                <div id="dropdownHover"
+                     className="w-32 hidden absolute group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-900">
+                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton" onChange={handleChange}>
+                        <li>
+                            <a href="#"
+                               className="flex items-center block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                                <img className="w-6 h-6 mr-2 rounded-full"
+                                     src="/icon/Usa.png" alt="English"/>
+                                English
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               className="flex items-center block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                                <img className="w-6 h-6 mr-2 rounded-full"
+                                     src="/icon/Bangladesh.png" alt="Bangladesh"/>
+                                Bangla
+                            </a>
+                        </li>
+                    </ul>
+                </div>
 
+</div>
             </div>
         </section>
 
