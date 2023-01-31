@@ -3,7 +3,6 @@ import React from 'react'
 import {FiHome, FiShoppingCart, FiUser} from "react-icons/fi"
 import { useRecoilState } from 'recoil'
 import { cartState } from '../atoms/cartState'
-import { FaBeer } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -52,8 +51,8 @@ const Navbar = () => {
                     Languages
                 </button>
                 <div id="dropdownHover"
-                     className="w-32 hidden absolute group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-900">
-                    <ul className="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton" onChange={handleChange}>
+                     className="hidden w-32 h-20 absolute group-hover:block bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-900">
+                    <ul className="py-1.5 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton" onChange={handleChange}>
                         <li>
                             <a href="#"
                                className="flex items-center block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
