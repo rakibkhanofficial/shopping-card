@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Product from '../components/Product'
 import data from "../data.json"
 import Typewriter from 'typewriter-effect';
+import MessengerChat from '../components/MessengerChat';
 
 export default function Home() {
     return (
@@ -115,6 +116,7 @@ export default function Home() {
 
                 </div>
             </section>
+<MessengerChat/>
             <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
